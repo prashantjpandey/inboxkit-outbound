@@ -3,12 +3,15 @@
 Rules:
 - no em or en dashes; one ask (at most one question mark) per message
 - no links inside messages (plain text places better and keeps the ask on the reply)
-- every message is personalised: it uses {{first_line}}, {{signal_short}} or {{company_name}}
-- any message that makes a product claim carries a '> Source' note, and the file has a
+- messages are shown as the example lead receives them: no unfilled {{placeholders}}, and each
+  one names the example lead's company or domain (declared in an '**Example lead:**' line)
+- every email ends with a sign-off
+- any message that makes a product claim carries a 'Sources (not sent)' note, and the file has a
   '## Claim sources' table linking the inboxkit.com page for each claim
 - the opt-out footer the sequencer adds to every email is declared once in the file
 
-Copy file format: each message is a '### ' section (ending at the next '## ' heading).
+Copy file format: each message is a '### ' section (ending at the next '## ' heading). The message
+itself is the '**Subject:**' line plus the quoted '> ' lines; anything else in the section is a note.
 Sections whose title starts with 'Email' are emails.
 Usage:
   python scripts/lint_copy.py deliverables/copy.md
@@ -25,7 +28,6 @@ CLAIM_WORDS = re.compile(r"\b(mailbox|mailboxes|warmup|InfraGuard|DNS|DMARC|SPF|
 
 
 LINK = re.compile(r"https?://|www\.", re.I)
-PERSONAL = re.compile(r"\{\{(first_line|signal_short|company_name)\}\}")
 
 
 def sections(text):
@@ -35,8 +37,15 @@ def sections(text):
 
 
 def body_of(sec):
-    """Message text only: drop the 'Sources' / notes lines that start with '>'."""
-    return "\n".join(l for l in sec.splitlines() if not l.startswith(">"))
+    """Message text only: the subject line plus the quoted ('> ') lines; notes and sources are not sent."""
+    lines = [l for l in sec.splitlines() if l.startswith(">") or l.startswith("**Subject:**")]
+    return "\n".join(l.lstrip("> ").replace("<br>", "") for l in lines)
+
+
+def example_lead(text):
+    """'**Example lead:** Mustafa, Scalemill (scalemill.com).' -> ['Scalemill', 'scalemill.com']"""
+    m = re.search(r"\*\*Example lead:\*\*\s*[^,]+,\s*([^(]+)\(([^)]+)\)", text)
+    return [m.group(1).strip(), m.group(2).strip()] if m else []
 
 
 def lint_copy(path):
@@ -50,16 +59,26 @@ def lint_copy(path):
     sources = re.split(r"^## Claim sources", text, flags=re.M)
     if len(sources) < 2 or "inboxkit.com" not in sources[1]:
         errors.append("missing '## Claim sources' table with inboxkit.com links")
+    lead = example_lead(text)
+    if not lead:
+        errors.append("missing '**Example lead:** Name, Company (domain).' line")
     for title, sec in sections(text):
         body = body_of(sec)
+        if not body.strip():
+            errors.append(f"{title}: no message found (quote the message with '> ')")
+            continue
         if body.count("?") > 1:
             errors.append(f"{title}: {body.count('?')} question marks (one ask per message)")
         if LINK.search(body):
             errors.append(f"{title}: link inside the message")
-        if not PERSONAL.search(body):
-            errors.append(f"{title}: not personalised (no first_line, signal_short or company_name)")
-        if CLAIM_WORDS.search(body) and not re.search(r"^> Sources?:", sec, re.M):
-            errors.append(f"{title}: product claim without a '> Source' note")
+        if "{{" in body:
+            errors.append(f"{title}: unfilled placeholder; show the message as the example lead receives it")
+        if lead and not any(x in body for x in lead):
+            errors.append(f"{title}: not personalised to the example lead ({' / '.join(lead)})")
+        if title.lower().startswith("email") and not re.search(r"^(Best|Thanks|Cheers|Regards),\s*$", body, re.M):
+            errors.append(f"{title}: no sign-off")
+        if CLAIM_WORDS.search(body) and not re.search(r"Sources \(not sent\):", sec):
+            errors.append(f"{title}: product claim without a 'Sources (not sent)' note")
     return errors
 
 

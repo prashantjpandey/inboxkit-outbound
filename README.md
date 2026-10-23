@@ -47,7 +47,7 @@ Every removal is logged with a reason in `dropped.csv`, and `run_report.md` coun
 
 ## Rules the copy follows
 
-`python scripts/lint_copy.py deliverables/copy.md` fails on em or en dashes, more than one question per message, any link inside a message, a message with no personalisation tag, a product claim without a source note, a missing claim-sources table (every claim linked to its inboxkit.com page), or no declared opt-out footer. First lines are linted the same way and may not claim a prospect's email goes to spam.
+`python scripts/lint_copy.py deliverables/copy.md` fails on em or en dashes, more than one question per message, any link inside a message, an unfilled placeholder or a message not personalised to the example lead, an email without a sign-off, a product claim without a source note, a missing claim-sources table (every claim linked to its inboxkit.com page), or no declared opt-out footer. First lines are linted the same way and may not claim a prospect's email goes to spam.
 
 ## Contact data
 
