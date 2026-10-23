@@ -1,0 +1,50 @@
+# Tier 2 source: organizations_lookup (free) with agency-specific tags and NO hiring filter; kept only if the domain check finds a gap
+-|FindAnyLead|findanylead.org|64da3d7689cfb600baf607dd
+-|Caydo|caydo.co|6048b4e933a19000014030f4
+-|Appointment Setting Pros|appointmentsettingpros.com|5e5740a0b0bc1c000114dbf8
+-|Revnew, Inc.|revnew.com|5f4b56a7ece9d50001755e9c
+-|Leadvance Consulting|leadvanceconsulting.com|6981ae3808892500212abf69
+-|TenX Cold Email|tenxcoldemail.com|6226d5b0971ed800fb7f67c0
+-|B2B Linked Up|b2blinkedup.com|62bb1e08005bd500df74c6c9
+-|SharpHeads|sharpheads.com|5f436d8b0f7c5b0001bf681b
+-|Vorge Consulting|vorgeconsulting.com|64210e348dcd2c000178a425
+-|ProfitPath Growth Partners|profitpathgrowthpartners.com|66ae8a79f8b6440001c15015
+-|B2B Associates|b2b-associates.com|5f86e6c2daea2000be4b2e50
+-|Appointment Setting Singapore|appointmentsetting.sg|64a8e9fa193cad00011d11fc
+-|Cold Email Hustle|coldemailhustle.com|643eb94b4c725b00efbcee08
+-|Hyperke|hyperke.com|612a4590aa11dd0001912215
+-|Cold Canvass|coldcanvass.com|6ab9bde0baa9e600010af0a0
+-|GTM Outbound Services|gtmoutboundservices.com|69401e3ccdf9d3001912b550
+-|Novaz Lead Gen|novazleadgen.com|602d7413bff85f016e11e557
+-|Blackorange|blackorange.nl|5b135437a6da98dcb5c86f92
+-|Elite Appointment Setting Services|eliteappointmentsetting.com|57c4bbaba6da983717eefad2
+-|Appointment Setting Co|conceptsforsales.com|614d7ac03c6acc00010a93b3
+-|Inboxpirates|inboxpiratesconsulting.com|62cecddfa43aa200b3463289
+-|Meetics|meetics.co|636f5529cad625000174c01d
+-|Demand Nexus|demandnexus.io|66d90b95386ec702d0dbedde
+-|Royal Acquisition|royalacquisition.com|6660512a04a04203a276a814
+-|DemandZEN|demandzen.com|5569d5437369642585d2a000
+-|SalDev|saldev.io|64a1673c24cd44000168c13c
+-|Next Leads B2B|nextleads.com.br|65adc2e423e41000013100e8
+-|LinkedSelling|linkedselling.com|55698a1d73696425ee185400
+-|Meeting Dots|meetingdots.com|608ff40d04f2f3010ab2ee9d
+-|The Salesbridge|thesalesbridge.com|5f8aeb8d6467d4008c81c13d
+-|Bant Labs|bantlabs.com|69e303a07bc8ba00017fd1a8
+-|Assured Outbound|assuredoutbound.com|68ffe4074de44e001db35e18
+-|Nerdy Joe|nerdyjoe.com|615ff48d5be7380001f30f6a
+-|LINKOS|linkos-leads.com|6852363244197e0001c0da6c
+-|Appointment Setting UK|appointmentsetting.co.uk|665be505ef6dee0001b16a88
+-|Cold Email Studio|coldemail.studio|60bfb339c097c200c2fbc426
+-|UpliftGTM|upliftgtm.com|5fc8c18fb6826b00015ce421
+-|The Cold Email|thecoldemail.co.uk|61eb9f478971900001fb7ee4
+-|Artemis Leads|artemisleads.com|66329b6e16b13201c7a91602
+-|The Lead Generation Company|theleadgenerationcompany.co.uk|5569acdf7369642579087800
+-|MillionCXO|millioncxo.com|686e74ca730c500011e7a972
+-|B2B Only|b2bonly.com|5d4c27d01fef8d0bd7ebfbdc
+-|Prospectily|prospectily.com|6ab9adeca7124b00015d1d68
+-|LeadFreak|leadfreak.co|6639f1f6ca8c2000016da8b9
+-|SalesCaptain|salescaptain.io|61c31312839ef800a4b97d37
+-|Founders Arm|foundersarm.com|66209ce4c2bbaf0007ab0096
+-|Martal Group|martal.ca|54a246097468693fda45e51b
+-|Mailforge|mailforge.ai|65b131a5ea4e1b01c6830adf
+-|Maildoso|maildoso.ai|655c93b8ebf87d00ba47e087

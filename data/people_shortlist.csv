@@ -1,0 +1,101 @@
+person_id,first_name,title,company,domain,tier,hiring_for,dns_gaps,source
+6353c6ed84268d0001c6a090,Zeeshan,CEO & Founder,imisofts,imisofts.com,1,lead generation,,apollo:mixed_people_api_search
+60ebf94348616a000173f4fb,Jakob,Founder/CEO,Brightvision,brightvision.com,1,outbound;sdr,dmarc_p_none,apollo:mixed_people_api_search
+65829bb131faff0001a8bd71,Niklas,Head of Growth,Brightvision,brightvision.com,1,outbound;sdr,dmarc_p_none,apollo:mixed_people_api_search
+685a5ac2e86bde0001f719af,Mustafa,Co-Founder & CEO,Scalemill,scalemill.com,1,sdr,no_spf,apollo:mixed_people_api_search
+5e5ddfca18d9a60001cd2d0f,Mubashir,"Account Manager (Sales, Customer Success & Operations)",Scalemill,scalemill.com,1,sdr,no_spf,apollo:mixed_people_api_search
+6102acfe9c78d00001775e70,Joe,CEO & Co-Founder,Outbound Partners,outboundpartners.com,1,sdr,no_spf,apollo:mixed_people_api_search
+67a5edbb40f89a0001888e5f,Finley,Co-Founder,Outbound Partners,outboundpartners.com,1,sdr,no_spf,apollo:mixed_people_api_search
+684f48e6cc00580001baeae8,Javier,Founder & CEO,Flows,flows.es,1,lead generation,,apollo:mixed_people_api_search
+61c2cfb62739d80001d4e4c3,Helena,Growth Marketing Manager,Flows,flows.es,1,lead generation,,apollo:mixed_people_api_search
+66f54b1ad196ce0001210ef0,Gareth,Founder & CEO,ORRJO,orrjo.com,1,sdr,no_spf;no_dmarc,apollo:mixed_people_api_search
+63206cdac4bd0a00018552e6,Marc,Head of Growth,ORRJO,orrjo.com,1,sdr,no_spf;no_dmarc,apollo:mixed_people_api_search
+67727746ff821f0001e69819,Zane,Co-Founder & CEO,SalesSourcers,salessourcers.com,1,sdr,,apollo:mixed_people_api_search
+6112690b7b28150001b2b978,Zaid,Co-Founder and COO,SalesSourcers,salessourcers.com,1,sdr,,apollo:mixed_people_api_search
+67f7ae043b0b1100011c5b18,Kasper,CEO & Co-Founder,Leadsify,leadsify.io,1,appointment setter,dmarc_p_none,apollo:mixed_people_api_search
+641c56b6b335c500019a2aa8,Roni,Shareholder & Co-Founder,Leadsify,leadsify.io,1,appointment setter,dmarc_p_none,apollo:mixed_people_api_search
+62ec2cc002f7b50001ddcb52,Louis,Co-Founder & COO,Advanced Client,advancedclient.io,1,sdr,,apollo:mixed_people_api_search
+655888edad97150001af7c1a,Tom,Head of Growth,Advanced Client,advancedclient.io,1,sdr,,apollo:mixed_people_api_search
+605cadb5aa21bd000164ccae,Marin,"Co-founder, Growth & Partnerships",Akimbo,akimbo.eu,1,outbound,,apollo:mixed_people_api_search
+5f6808793abe6e0001fffdc5,Gabin,Head of Growth Performance,Akimbo,akimbo.eu,1,outbound,,apollo:mixed_people_api_search
+67924e08047ac00001a2d3fa,David,Chief Executive Officer,Whistle,whistle.ltd,1,sdr;appointment setter;outbound,,apollo:mixed_people_api_search
+5d15df0ca3ae615a527fdd35,Yonah,COO and Co-founder,Whistle,whistle.ltd,1,sdr;appointment setter;outbound,,apollo:mixed_people_api_search
+66f26b92d09e8700014d1069,Chris,CEO,Punch!,punchb2b.com,1,sdr,,apollo:mixed_people_api_search
+624131bf08c3d70001f4dab2,Holly,Chief Operating Officer,Punch!,punchb2b.com,1,sdr,,apollo:mixed_people_api_search
+641a0f34f2331f00014c5f74,Harry,Head of Innovation & Automations,Punch!,punchb2b.com,1,sdr,,apollo:mixed_people_api_search
+64c7f6c89c4af600010d1003,Georgey,Chief Executive Officer,Borks,borks.io,1,lead generation,dmarc_p_none,apollo:mixed_people_api_search
+683564673c7bf70001483845,James,CEO,EngageTech,engagetech.io,1,sdr,,apollo:mixed_people_api_search
+68aea1f69e33190001e3a7d2,Ruediger,CEO EngageTech GmbH,EngageTech,engagetech.io,1,sdr,,apollo:mixed_people_api_search
+60faa6ee799a07000138b21f,Nikhil,Co-Founder,LeadRoad,leadroad.io,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+6469aad1f56a5a0001f42ddf,Nikita,Co-founder and COO,LeadRoad,leadroad.io,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+66f293108f9a8700019d1a1e,Sunil,Founder,Pixelo Digital,pixelodigital.com,1,sdr;outbound,dmarc_p_none,apollo:mixed_people_api_search
+626207f3feecc1000106b3ea,Siddhesh,GTM & Partnerships Lead,Pixelo Digital,pixelodigital.com,1,sdr;outbound,dmarc_p_none,apollo:mixed_people_api_search
+66f1c8432205ec00014ba950,Duncan,Co-Founder,Sellerate,sellerate.io,1,sdr,,apollo:mixed_people_api_search
+60199d5e3bdfcf0001b7f24c,Mariano,Co-Founder,Sellerate,sellerate.io,1,sdr,,apollo:mixed_people_api_search
+65bff27bd1bc1c00013ddcdc,Adam,Co-Founder,Grow Surely,growsurely.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+66f6e8a974c57a00015ffd74,Gregory,Co-Founder,Grow Surely,growsurely.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+621760acbcdc31000148c121,Kirill,Founder,Startupr,startupr.xyz,1,appointment setter,,apollo:mixed_people_api_search
+6843eb6476dcd90001eddd83,Parker,Co-Founder & Chief Marketing Officer,Startupr,startupr.xyz,1,appointment setter,,apollo:mixed_people_api_search
+66fce4ed29d09c00018d9e42,Michael,Co-Founder,Matter,matterb2b.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+611b7728b792e200014c9dd4,Hollie,Managing Director,Matter,matterb2b.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+66ed41966627950001b1ffb0,Alejandro,Joint Chief Executive Officer,Bastida&Farina,bastidafarina.com,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+6689a927ae82ef000148af37,Karim,CEO & Chief Guru,Pipeline Gurus,pipelinegurus.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+61fa0e13bfed5a00019bd8f3,Johan,Fondateur Associe,FDV Partner,fdvpartner.com,1,outbound,,apollo:mixed_people_api_search
+5e8d77fd35e16a00011451ad,Alexandre,Associate Director,FDV Partner,fdvpartner.com,1,outbound,,apollo:mixed_people_api_search
+635a8c1b9fb22b0001a64f6b,Martin,Co-Founder,Danish Lead Co.,danishleadco.io,1,outbound,,apollo:mixed_people_api_search
+6167a4ac3bdbc400016c19f1,Val,GTM & Customer Success Lead,Danish Lead Co.,danishleadco.io,1,outbound,,apollo:mixed_people_api_search
+61122fa502f58e0001cc41c0,David,President,SalesRoads,salesroads.com,1,sdr;appointment setter;outbound,dmarc_p_none,apollo:mixed_people_api_search
+66faaebe74f7370001edf8d8,Maria,Director of Business Development & New Sales,SalesRoads,salesroads.com,1,sdr;appointment setter;outbound,dmarc_p_none,apollo:mixed_people_api_search
+60d0be60c0b2b70001ecee1b,Sara,Vice President of Operations,SalesRoads,salesroads.com,1,sdr;appointment setter;outbound,dmarc_p_none,apollo:mixed_people_api_search
+677a579623163e0001bca6f8,Kyle,Chief Revenue Officer,Outbound Sales Pro,outboundsalespro.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+65128549e522930001a44f85,Fernanda,Senior Director of Sales Development,Outbound Sales Pro,outboundsalespro.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+60f5b53c220f460001b7a081,Ali,Managing Partner,Zaphyre,zaphyrpro.com,1,sdr;appointment setter;outbound;lead generation,,apollo:mixed_people_api_search
+6ad3a91fb1a6fc00017382e8,Wasif,Head of Business Development,Zaphyre,zaphyrpro.com,1,sdr;appointment setter;outbound;lead generation,,apollo:mixed_people_api_search
+60fd801e64b81d0001a222a6,Ted,President,Expert Business Development,expertbizdev.com,1,lead generation,,apollo:mixed_people_api_search
+5f0a0326a7c8d30001e7805c,Matthew,Vice President of Business Development,Expert Business Development,expertbizdev.com,1,lead generation,,apollo:mixed_people_api_search
+60d48aeea4c1d00001d88c54,Michael,"VP, Operations and Technology",Expert Business Development,expertbizdev.com,1,lead generation,,apollo:mixed_people_api_search
+66f9bf7583ba0c000165c8d7,Fabien,Consulting Director,European Sales Group,europeansales.group,1,sdr,no_dmarc,apollo:mixed_people_api_search
+613a0ce781740d00016b4458,Celia,"Sales Manager, SVP",European Sales Group,europeansales.group,1,sdr,no_dmarc,apollo:mixed_people_api_search
+616a419ff7bcb30001d735ef,Jasmine,Head of Delivery,Growth Co,growthcomarketing.com,1,sdr,no_dmarc,apollo:mixed_people_api_search
+5d633099f651255d397f1bf1,Spiros,Fractional Sales Director,Growth Co,growthcomarketing.com,1,sdr,no_dmarc,apollo:mixed_people_api_search
+57dd1c21a6da987b18747a49,Mubeen,Head of Operations,Division50,division50.com,1,sdr,dmarc_p_none,apollo:mixed_people_api_search
+64259d77faf79400018bdfff,Renz,Chief Technology Officer,Prospexia Outsourcing,prospexiaoutsourcing.com,1,appointment setter,dmarc_p_none,apollo:mixed_people_api_search
+66fdc0fe3ca4f70001f43686,Filip,CEO and Co-Founder,SkyBox,skybox-sales.com,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+66f82a67ae47ef00017da3b6,Marko,COO & Co-Founder,SkyBox,skybox-sales.com,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+6804f089df2b1b0001e9f2ae,Karolina,Founder and CEO,Protosell AB,protosell.se,1,outbound,no_dmarc,apollo:mixed_people_api_search
+611cc3eddb3a5300017f3263,Julius,Co-Founder & CEO,REP - Revenue Excellence Partners,revenue-excellence.de,1,outbound,no_spf;dmarc_p_none,apollo:mixed_people_api_search
+66fdc117a94ead000140afcc,Jon,CEO & Co-Founder,SalesDose,salesdose.io,1,outbound,,apollo:mixed_people_api_search
+67f40dccb33aed00013a0dd1,Vishnu,Founder,Vivin Sales,vivinsales.ca,1,outbound,,apollo:mixed_people_api_search
+66f57ab6afed8100017f4c06,Jason,CEO,Remote Growth Partners,remotegrowthpartners.com,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+63943fa3a1b5b900019381c4,Glauco,Fundador e CEO,WESOW - Prospeccao B2B e Pre-Vendas,wesow.com.br,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+66f1611f310f030001618d8c,Mikko,Chief Executive Officer,Aexus,aexus.com,1,outbound,no_dmarc,apollo:mixed_people_api_search
+66f47122fd284200010f85d5,Anna,Managing Director,Aexus,aexus.com,1,outbound,no_dmarc,apollo:mixed_people_api_search
+60fff4ccecd0eb000178fc14,Anuj,Founder,Growleads.io - AI Powered B2B Lead Generation Agency,growleads.io,1,outbound,,apollo:mixed_people_api_search
+667e85d36862100001ac8a2d,Malay,Head of Growth Systems & Operations,Growleads.io - AI Powered B2B Lead Generation Agency,growleads.io,1,outbound,,apollo:mixed_people_api_search
+66f3f2411a77e10001c4bdfe,Paul,CEO & Co-Founder,The Sales Factory,thesalesfactory.com,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+66f434b2e9448600013751d6,Eric,Co-Founder & CRO,The Sales Factory,thesalesfactory.com,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+6ad438a12cfd1500017fd5eb,Theo,Chief Executive Officer,The Bullpen,thebullpen.io,1,outbound,no_dmarc,apollo:mixed_people_api_search
+54a2f3a97468692e71e14d49,Helen,Owner,The Bullpen,thebullpen.io,1,outbound,no_dmarc,apollo:mixed_people_api_search
+6a169ae075bb960001f40922,Santosh,Founder & CEO,Intent Amplify,intentamplify.com,1,outbound,,apollo:mixed_people_api_search
+66f24f3b087e55000177a662,Nicholas,CEO,Cleverly,cleverly.co,1,outbound,dmarc_p_none,apollo:mixed_people_api_search
+610d0624258dcb000156f21c,Alex,Founder,Dial'd In,dialdin.co.uk,1,outbound,no_dmarc,apollo:mixed_people_api_search
+66fdfe95a00d8e000105bbcd,Matthew,Co-Founder,Dial'd In,dialdin.co.uk,1,outbound,no_dmarc,apollo:mixed_people_api_search
+6800f5e6f9d65d0001f66be2,Justin,Chief Revenue Officer,2cantalks,2ctsalesco.com,1,bdr,dmarc_p_none,apollo:mixed_people_api_search
+66f96cbcc0f7850001013713,Kraig,VP of New Sales Development,Arsenal Business Growth,arsenalbg.com,1,bdr,,apollo:mixed_people_api_search
+6167aafe3fb9300001905bd5,Justin,Director of SEMO Operations,Arsenal Business Growth,arsenalbg.com,1,bdr,,apollo:mixed_people_api_search
+6ad1640464bbbe0001903d8d,Tom,President,SalesPro Leads,salesproleads.com,1,bdr,,apollo:mixed_people_api_search
+5570589d7369645b70dd0100,Kelly,Chief Revenue Officer,"Revnew, Inc.",revnew.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+6451407d6fc8270001d74f3b,Lam,Head of Operations,"Revnew, Inc.",revnew.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+57d399c1f651252c29f329d4,Santiago,Chief Executive Officer,Novaz Lead Gen,novazleadgen.com,2,,no_spf,apollo:mixed_people_api_search
+67003c855de7840001d368f2,Ron,Co-Owner,Novaz Lead Gen,novazleadgen.com,2,,no_spf,apollo:mixed_people_api_search
+6559896c84d94b0001976b1d,Haffez,CEO & Founder,Royal Acquisition,royalacquisition.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+66899169709af700017c4e8d,Hafsa,Founder,GTM Outbound Services,gtmoutboundservices.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+66712d6811ac56000163c1b8,Jack,Founder,ProfitPath Growth Partners,profitpathgrowthpartners.com,2,,no_dmarc,apollo:mixed_people_api_search
+609ae6c7b454de00015550bf,Loreta,VP Operations & Development,ProfitPath Growth Partners,profitpathgrowthpartners.com,2,,no_dmarc,apollo:mixed_people_api_search
+6490c843ce2f6b0001c56e80,Alfredo,Growth Partner,Blackorange,blackorange.nl,2,,no_dmarc,apollo:mixed_people_api_search
+658d17abe3f6f400013a3cd5,Khan,Founder,Assured Outbound,assuredoutbound.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+697c6082052b290001ec1f9d,Ticiane,Head Comercial & Estrategia,Next Leads B2B,nextleads.com.br,2,,dmarc_p_none,apollo:mixed_people_api_search
+67424553f0468d0001f6386c,Jose,Partner,Next Leads B2B,nextleads.com.br,2,,dmarc_p_none,apollo:mixed_people_api_search
+68406c83db4ef60001c39b34,David,Founder / Managing Director,B2B Only,b2bonly.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+653e6ee53b89de0001fa618c,Melissa,Director of Operations,B2B Only,b2bonly.com,2,,dmarc_p_none,apollo:mixed_people_api_search
+64946a58920ab600014827a6,Yolande,Account Director,2cantalks,2ctsalesco.com,1,bdr,dmarc_p_none,apollo:mixed_people_api_search

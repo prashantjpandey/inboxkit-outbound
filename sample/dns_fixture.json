@@ -1,0 +1,7 @@
+{
+  "acmeoutbound.example": {"mx_provider": "google", "dns_gaps": "no_dmarc"},
+  "pipelineforge.example": {"mx_provider": "google", "dns_gaps": "dmarc_p_none"},
+  "signalleads.example": {"mx_provider": "microsoft", "dns_gaps": ""},
+  "meridianappts.example": {"mx_provider": "google", "dns_gaps": "multiple_spf;dmarc_p_none"},
+  "northwindleads.example": {"mx_provider": "google", "dns_gaps": ""}
+}

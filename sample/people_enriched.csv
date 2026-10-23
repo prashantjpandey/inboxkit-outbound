@@ -1,0 +1,13 @@
+person_id,org_id,first_name,last_name,title,company,domain,email,email_status,email_catchall,linkedin_url,source
+s-p-1,s-org-1,Dana,Reyes,Founder,Acme Outbound,acmeoutbound.example,dana@acmeoutbound.example,verified,no,https://www.linkedin.com/in/dana-reyes-sample,sample
+s-p-2,s-org-1,Dana,Reyes,Founder,Acme Outbound,acmeoutbound.example,dana@acmeoutbound.example,verified,no,https://www.linkedin.com/in/dana-reyes-sample,sample (same person returned twice)
+s-p-3,s-org-1,Ravi,Shah,CEO,Acme Outbound,acmeoutbound.example,ravi@acmeoutbound.example,verified,no,https://www.linkedin.com/in/dana-reyes-sample/,sample (different email but same LinkedIn profile)
+s-p-4,s-org-2,Sam,Okafor,Co-Founder,Pipeline Forge,pipelineforge.example,sam.okafor@pipelineforge,verified,no,https://www.linkedin.com/in/sam-okafor-sample,sample (email missing its TLD)
+s-p-5,s-org-2,Jo,Kim,Head of Growth,Pipeline Forge,pipelineforge.example,jo@pipelineforge-mail.example,verified,no,https://www.linkedin.com/in/jo-kim-sample,sample (email domain has no MX)
+s-p-6,s-org-2,Alex,Grant,CEO,Pipeline Forge,pipelineforge.example,alex@pipelineforge.example,verified,no,https://www.linkedin.com/in/alex-grant-sample,sample (already in a sales conversation)
+s-p-7,s-org-3,Lee,Park,Founder,Signal Leads,signalleads.example,lee@signalleads.example,extrapolated,no,https://www.linkedin.com/in/lee-park-sample,sample (source could not verify)
+s-p-8,s-org-4,Maria,Lopez,Managing Director,Meridian Appointments,meridianappts.example,maria@meridianappts.example,verified,no,https://www.linkedin.com/in/maria-lopez-sample,sample
+s-p-9,s-org-4,,,,Meridian Appointments,meridianappts.example,info@meridianappts.example,verified,no,,sample (role address)
+s-p-10,s-org-5,Priya,Nair,Founder,Northwind Leads,northwindleads.example,priya@northwindleads.example,verified,no,https://www.linkedin.com/in/priya-nair-sample,sample (asked not to be contacted)
+s-p-11,s-org-6,Tom,Hale,Founder,Hypergen - B2B Cold-Email,hypergen.io,tom@hypergen-sample.example,verified,no,https://www.linkedin.com/in/tom-hale-sample,sample (existing InboxKit partner)
+s-p-12,s-org-3,Omar,Haddad,Head of Growth,Signal Leads,signalleads.example,omar@signalleads.example,verified,yes,https://www.linkedin.com/in/omar-haddad-sample,sample (catch-all domain)

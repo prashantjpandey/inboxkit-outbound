@@ -1,0 +1,10 @@
+org_id,name,domain,source,hiring_for,site_title,site_description,site_keywords,sells_infra,qualified,qualify_reason
+s-org-1,Acme Outbound,acmeoutbound.example,sample,sdr,Acme Outbound | B2B appointment setting,We book qualified sales meetings for SaaS teams with cold email.,cold email;outbound;appointment setting,no,yes,site: B2B appointment setting via cold email
+s-org-2,Pipeline Forge,pipelineforge.example,sample,appointment setter;cold email,Pipeline Forge,Done-for-you outbound for agencies and consultancies.,cold email;outbound;pipeline,no,yes,site: done-for-you outbound
+s-org-3,Signal Leads,signalleads.example,sample,campaign manager,Signal Leads | Lead generation agency,Lead generation for B2B services firms.,lead generation;outbound,no,yes,site: B2B lead generation agency
+s-org-4,Meridian Appointments,meridianappts.example,sample,sdr,Meridian | Outbound that books meetings,We set up your domains and inboxes and run the campaigns.,cold email;outbound;deliverability,yes,yes,site: outbound plus inbox setup for clients
+s-org-5,Northwind Leads,northwindleads.example,sample,sdr,Northwind Leads,Cold email lead generation for IT services.,cold email;lead generation,no,yes,site: cold email lead generation
+s-org-6,Hypergen - B2B Cold-Email,hypergen.io,sample,sdr,Hypergen,B2B cold email agency.,cold email,no,yes,site: cold email agency
+s-org-7,ZapMail,zapmail.example,sample,sdr,ZapMail,Mailboxes for cold email.,cold email,yes,yes,site: sells mailboxes
+s-org-8,Bright Cleaning Co,brightcleaning.example,sample,appointment setter,Bright Cleaning | Office cleaning,Commercial cleaning services.,,no,no,not an agency: cleaning services
+s-org-9,Acme Outbound LLC,acmeoutbound.example,sample,sdr,Acme Outbound | B2B appointment setting,We book qualified sales meetings for SaaS teams with cold email.,cold email;outbound,no,yes,duplicate of Acme listed twice by the source

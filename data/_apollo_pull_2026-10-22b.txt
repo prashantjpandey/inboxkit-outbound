@@ -1,0 +1,25 @@
+# Apollo organizations_lookup (free), 2026-10-22, second pass: page 2 of the SDR query, and tighter agency tags
+sdr|RSW/US|rswus.com|54a12a6a69702d9b8b2a1b02
+sdr|Ondrick Agency|ondrickagency.com|67210e29368d7e04f4aa9ff2
+sdr|EngageTech|engagetech.io|54a1356069702d46f0e28900
+sdr|Bowe - B2B Growth|bowe.com.br|5cd9b4e0ba3a7e0cf507b5e1
+sdr|RECODemand Corp.|recodemand.com|61df67555fc6c700f67dea3b
+sdr|Growth Machine|growthmachine.com.br|5c25b9def65125e2956a682e
+sdr|Set 2 Close|set2close.io|627abb5c2a1a54008d70c2f8
+sdr|Momentum Outbound|momentum-outbound.com|6751d93b61b969053bd15000
+sdr|Linkoast|linkoast.com|5da525cc0a74550001714dd9
+sdr|Salesapps|salesapps.io|55f5abf5f3e5bb11b6000491
+sdr|Purple Sales|mypurplesales.com|5e560611ad3e790001d7df16
+sdr|Marketing Ninjas|marketingninjas.io|67d8f6c7b874150001c8660b
+sdr|Sellerate|sellerate.io|5b8430d0f874f724bba79cd8
+sdr|Matter|matterb2b.com|5ff38c8813cf4601136ec149
+sdr|Protomiq|protomiq.com|55f2b78bf3e5bb0b2d0073c3
+sdr|ORRJO|orrjo.com|62442cbc24c31300a68bc3ed
+sdr|European Sales Group|europeansales.group|65ca462c783f8e0300ef4751
+sdr|Brightvision|brightvision.com|5569618473696425a3251800
+sdr|Tendril|tendril.us|615bd79ff9902d0001620ca3
+sdr|Attio|attio.com|5e4ae4693b1fdf00d6ef1749
+sdr|Enginy|enginy.ai|64d00573be1d0400a2a564df
+sdr|graph8|graph8.com|663323e0475c5306af0b2617
+sdr|Betts Recruiting|bettsrecruiting.com|54a12a8e69702d8eeb277602
+outbound|Agency Velocity|agencyvelocity.io|637a4692ac74cf00a32f0589

@@ -1,0 +1,3 @@
+domain,company,email,reason,source
+,,alex@pipelineforge.example,in_conversation,sample CRM export of open deals
+,,priya@northwindleads.example,do_not_contact,sample unsubscribe list

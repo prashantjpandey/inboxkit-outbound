@@ -1,0 +1,16 @@
+*.pyc
+.env
+__pycache__/
+data_live/
+output/sample_run/
+output_live/
+# real contact details: kept locally, never published (share the full sheet privately)
+data/people_enriched.csv
+data/people_clean.csv
+data/people_verified.csv
+data/people_final.csv
+data/dropped.csv
+output/leads.csv
+output/sequencer_import.csv
+output/linkedin_list.csv
+output/dropped.csv

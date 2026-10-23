@@ -1,0 +1,21 @@
+# Group B: agencies found people-first (Apollo people search filtered on open SDR/BDR/outbound roles); domains via free organizations_lookup by name
+outbound|Protosell AB|protosell.se|556d9c607369641243855801
+outbound|LeadHQ|leadhq.io|60b1ebc0e99986000122af55
+outbound|Max Capacity Agency|maxcapacityagency.com|67f66759ff38970019bb6d56
+outbound|REP - Revenue Excellence Partners|revenue-excellence.de|66c5b78559fe0d02d0ab5cf7
+outbound|Revenue Vessel|revenuevessel.com|663188171e4e4d01c7d535dd
+outbound|SalesDose|salesdose.io|6859452f920792000d630eca
+outbound|Rocket4Sales|rocket4sales.com|5cbf60ea626c42093ca3f201
+outbound|SingularitySales GmbH|singularitysales.com|5da6ca21e10ddd00f637029c
+outbound|Vivin Sales|vivinsales.ca|64baab6386b9d900bae7bb1e
+outbound|Remote Growth Partners|remotegrowthpartners.com|6410ec2b8f3c0a00dae97fb2
+outbound|WESOW - Prospeccao B2B e Pre-Vendas|wesow.com.br|5d7f8fcd78027900995462b0
+outbound|Aexus|aexus.com|55ea50c3f3e5bb330f000413
+outbound|Growleads.io - AI Powered B2B Lead Generation Agency|growleads.io|667ba362d905c7040e8f73f5
+outbound|The Sales Factory|thesalesfactory.com|5e56c01f15f95c0001987b6c
+outbound|The Bullpen|thebullpen.io|5a9dbf8aa6da98d9852b17ee
+outbound|Intent Amplify|intentamplify.com|604b62aff5bc23013bc5cfef
+outbound|Sales Impact|salesimpact.com.br|57c4b8d5a6da983701595097
+outbound|3D2B Three Dimensions To Business|3d2b.com|54a11f6069702da4255bc901
+outbound|Cleverly|cleverly.co|6a86736374015c0001cd1c5c
+outbound|Dial'd In|dialdin.co.uk|67975c71e49b2401b118c5b6

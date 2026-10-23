@@ -1,0 +1,9 @@
+# Top-up: organizations_lookup (free), agencies hiring BDR / outreach roles, plus retried name lookups
+outbound|XForma - Lead Generation B2B|xforma.me|6049cc40ec0bfe0001e2cbe8
+outbound|SkyBox|skybox-sales.com|5eac49b9d0f71000de043089
+bdr|2cantalks|2ctsalesco.com|6377023c7cf45700a35c9519
+bdr|Arsenal Business Growth|arsenalbg.com|5da2e13e3bcd5b000115d8e6
+bdr|SalesPro Leads|salesproleads.com|54a128c969702d8cfc287801
+bdr|Inkeros|inkeros.com|5b132ca8a6da98dca5a82ea3
+bdr|Delta-v|deltav-global.com|5d354794a3ae618c3b88f000
+bdr|The Plum Tree Group|plumtreegroup.net|54a129e669702d9ebcc2b601

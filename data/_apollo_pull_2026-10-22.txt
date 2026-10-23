@@ -1,0 +1,241 @@
+# Apollo organizations_lookup (free), 2026-10-22. Filters from icp.md; one query per hiring role.
+# Format: role | name | domain | apollo_org_id
+sdr|Pipeline Gurus|pipelinegurus.com|61ec7951dcfc13000110910f
+sdr|Hypergen - B2B Cold-Email|hypergen.io|5f4a7bab9cc152000109cbb9
+sdr|Outbound Sales Pro|outboundsalespro.com|62cc24cf8bb64800ca346348
+sdr|LeadRoad|leadroad.io|60c8acb249dbd800f638bd82
+sdr|Outbound Partners|outboundpartners.com|656daefe75809d00bad81c70
+sdr|Zaphyre|zaphyrpro.com|5f049ad303c26301a09c06f1
+sdr|Terra 1|seamless.ai|5d0a735d80f93ed3db00d4da
+sdr|Secure IQ Services|secureiqservices.com|6754292c4860520199ea4f95
+sdr|Pixelo Digital|pixelodigital.com|5e57420637f7a60001f763a3
+sdr|HMM - The Leadgeneration Company|hmmtelemarketing.nl|6550f0d62058a200012a1ba4
+sdr|SalesRoads|salesroads.com|5f441ba78815620001a5b37d
+sdr|Easy Outsource|easy-outsource.com|64977569d549cf00a3a92e84
+sdr|HelloMrLead|hellomrlead.com|5b851c59f874f744f5ee17e1
+sdr|Scalemill|scalemill.com|5c282a42f651250f91a9f16e
+sdr|Outbound Operators|outboundoperators.com|681a5a7f07da5f001dbf9183
+sdr|Recruitment Revenue|recruitmentrevenue.com|6694372a3545a000011d839e
+sdr|PlusVibe|plusvibe.ai|63910f04e4959d00a3c5a13f
+sdr|BolsterBiz|bolsterbiz.com|55f7c9a0f3e5bb1f8a000481
+sdr|Nord Assist|nordassist.com|667e96b15299510001909cf8
+sdr|SalesSourcers|salessourcers.com|656f85e51fbf520171f8ec1a
+sdr|Global Pacific Support|globalpacificsupport.com|663d80c5c6245d01c7bb06b0
+sdr|Punch!|punchb2b.com|5e57cebbeedbc700014acc34
+sdr|Intellemo.AI|intellemo.ai|5df758efc6f1bd0146b90a1e
+sdr|Unify|unifygtm.com|63db89c76f883900f0069a3b
+sdr|Econodata|econodata.com.br|556d383e736964126c45bc00
+sdr|Orum|orum.com|5c48e4467e7d330fac888508
+sdr|Reevo|reevo.ai|5da38dcb97186f000191a9f4
+sdr|TripleDart|tripledart.com|610791ff51e34400f6122dd4
+sdr|Grow Surely|growsurely.com|65c1f6c70acc0d01c64ac2fb
+sdr|Several Brands|severalbrands.com|6048cf0071322900010f05cd
+sdr|HIREXE|hirexe.com|65c0855155b99200017def50
+sdr|Division50|division50.com|63abb45c1c169100a37b320d
+sdr|Whistle|whistle.ltd|5eab3abf97a59100c26f2548
+sdr|HubCredo|hubcredo.com|643d7ff818d2f800a38aca2b
+sdr|Advanced Client|advancedclient.io|6368f79d1a7d0800a315e21e
+sdr|Engati|engati.ai|5b13ff0aa6da98dce93a465c
+sdr|Hanbai.io|hanbai.io|647de27e83df2700a342cba0
+sdr|Boatman Agency|boatmanagency.com|63166719e35b2f00ce9a7436
+sdr|InFynd|infynd.com|6049a15809f5690001f74905
+sdr|Expand In Asia|expandin.asia|5e56fbda913acc000106031b
+sdr|PromoGeneration|promogen.org|611743bde7f7ea0001bc7b75
+sdr|LeadMaker Services|leadmaker.agency|5fcb8cdcb7ee850001f4196b
+sdr|Popl|popl.co|5ed368db74ba040001bbf752
+sdr|Reach First|reachfirst.com|55696215736964257d401900
+sdr|Leads2b|leads2b.com|5b84649f324d447ce96058a9
+sdr|Atica Global|aticaglobal.com|6049ea2fe823240001100d24
+sdr|Kipplo|kipplo.com|64ef939d47472300a39a015a
+sdr|Prospectify|weprospectify.com|67c5c5fc53cf390021b7f137
+sdr|Zoca|zoca.com|68063acb97c931001904d13e
+sdr|Growth Co|growthcomarketing.com|61ad714e7047600001ab5bcb
+sdr|CloudTask|cloudtask.com|56d951e1f3e5bb731900194b
+sdr|Logical Media Group|logicalmediagroup.com|5e57cf2cf017340001858722
+sdr|Alpha Global Team|alphaglobalteam.com|61ec2367c3377000013d4661
+sdr|Nextus.ai|nextus.ai|64f5eb5b76d6d300daae114f
+sdr|Revspot|revspot.ai|666a935f2310d703a10589b5
+sdr|The Portal Agency|theportalagency.com|5c2407eaf651252e1c279384
+sdr|Vainu|vainu.com|5f43b717272d6e000163bca3
+sdr|Firmable|firmable.ai|63eb6d1aeefcf300c2155ef7
+sdr|ATTOMO|attomo.digital|61ad3833f4f0c90001d56633
+sdr|ContactOut|contactout.com|5b13649da6da98dca5a9350e
+appointment setter|Global Pacific Support|globalpacificsupport.com|663d80c5c6245d01c7bb06b0
+appointment setter|High Ticket Closers|highticketclosers.in|6881f079dff41f0018b3428d
+appointment setter|Recruitment Revenue|recruitmentrevenue.com|6694372a3545a000011d839e
+appointment setter|The Lead Giants|theleadgiants.com|6980e3885b37d70021c495eb
+appointment setter|Remote Leverage|remoteleverage.com|669e355a511f5101b24b4a7f
+appointment setter|RemodelBoom|remodelboom.com|6455c7dbbb4d540001f54128
+appointment setter|Zaphyre|zaphyrpro.com|5f049ad303c26301a09c06f1
+appointment setter|Startupr|startupr.xyz|6617d7ae2c133301c7a878a2
+appointment setter|Upcision|upcision.com|5df12a3c2ae81a008c405ce4
+appointment setter|SalesRoads|salesroads.com|5f441ba78815620001a5b37d
+appointment setter|The Unlimited Global Business Solutions|theunlimitedinternational.com|646f39eb8ab3380001f88915
+appointment setter|Stealth Manager - White Label Agency|stealthmanager.com|62fa56947e5fc3008b781e58
+appointment setter|OSA Outsourcing Advantage|osaportal.com|66aea248c437eb000113f68d
+appointment setter|Proven Projects|provenprojects.co|6a65e58bd74f4100010fc403
+appointment setter|Easy Outsource|easy-outsource.com|64977569d549cf00a3a92e84
+appointment setter|Whistle|whistle.ltd|5eab3abf97a59100c26f2548
+appointment setter|SmartScale360|smartscale360.com|65d367c3f0179701c605583a
+appointment setter|Allied Fusion BPO|alliedfusionbpo.com|61ec97095a14a800018ae50e
+appointment setter|Vroom Media Group|vroommediagroup.com|60ef1c64ac56cd00f6eff20b
+appointment setter|Outsource Access Careers|outsourceaccesscareers.com|6148cd469a710d00da9bbe0f
+appointment setter|Mediboost|mediboost.com.au|615fd8cc04d8f10001c24afa
+appointment setter|Painter Marketing Pros|paintermarketingpros.com|5fc8b9e2b769a800012a66d2
+appointment setter|Convertros|convertros.com|61ec289563965d0001caede2
+appointment setter|Spiralyze|spiralyze.com|54a11ebf69702d8cccb09201
+appointment setter|H&M Virtual Services|hnmvirtualservices.com|6569b2efb41cfc00013848a3
+appointment setter|AdOutreach|adoutreach.com|5e5616669758fe0001e7ea1b
+appointment setter|Excello|excellobpo.com|60f34230fff2900001cdc3c6
+appointment setter|Paul Gough Media|paulgough.com|55f66b68f3e5bb1d0200e03c
+appointment setter|Outsource-X South Africa|outsource-x.com|65ca0aecbe47ff01c62e3fa3
+appointment setter|IXTE|ixte.nl|615feea9a4e716000131872d
+appointment setter|Resolv Global|resolv.global|64c4dd770b2e26000198f327
+appointment setter|C17 Lab|c17.ai|64ac0ef76b470500c3ea2f59
+appointment setter|Fondako Media|fondakomedia.com|60b281f11aa3600001a4186a
+appointment setter|Obby|meetobby.com|6615bf1900ae6907d585b976
+appointment setter|WYTLABS|wytlabs.com|633b244c62243c00ccd10f3a
+appointment setter|Steam-connect|steam-connect.com|5c63fc904be8630940067805
+appointment setter|Red Pepper - Leads & Sales Agency|red-pepper.be|5f487c607af3b70001ce2ab8
+appointment setter|No Joke Marketing|nojokemarketing.com|556d29be7369641208769f00
+appointment setter|InsideOut|insideoutva.com|6415fa1d3ab3ae0001d61de3
+appointment setter|UniCamel Tourism Representation|uni-camel.com|65b2068d40a4b101c632e85c
+appointment setter|Relay Acquisition|relayacquisition.com|64bdb3b9b3e6a20001bb5a1b
+appointment setter|Prospexia Outsourcing|prospexiaoutsourcing.com|67b26aee54c0db00195ac425
+appointment setter|Scaling With Systems|scalingwithsystems.com|605a3504980a15008cb9c97b
+appointment setter|Consistent Performance|kilianmarkert.com|5ed937ad63077b000156d042
+appointment setter|Patient Pro Marketing|patientpromarketing.com|6777fe1d99696502d07275a9
+appointment setter|Global TekMed|globaltekmed.com|61ec91ecf2a47b0001b3b5f7
+appointment setter|VA Masters|vamasters.com|677d1bf9a4652203eccf356c
+appointment setter|Publish Experts|publishexperts.com|682ef0671a6f5e000167999b
+appointment setter|ADDMORE Services|addmoreservices.com|6012e3f3460051008c68aa90
+appointment setter|SnappyCX|snappycx.com|63aacf77dd666500e3bd06b9
+appointment setter|Million Tech|milliontech.in|5da3203a0dffba00012bdbcb
+appointment setter|Full Circle CX|fullcirclecx.com|688ae64d6a847900013bd3ec
+appointment setter|Elite CEOs|eliteceos.com|632d1df65af1c200a4400152
+appointment setter|Skyhigh Sales|skyhighsales.nl|643422f2e8f26c00f0678854
+appointment setter|CorporateTrailer|corporatetrailer.nl|54a23d497468692e71ec2719
+appointment setter|Yokly|yokly.gives|5ffd5b4237c54500feac8157
+appointment setter|MyVA Support|myvasupport.com|64054d4cf7b15c00015e5f8c
+appointment setter|The Sales Centre|thesalescentre.co|612a43513f7bc60001055820
+appointment setter|Leadsify|leadsify.io|6454a7cd287aa300015bc4b8
+appointment setter|GSP Services|gspservices.com|63d0e8cb6d82aa0001376501
+outbound|Hypergen - B2B Cold-Email|hypergen.io|5f4a7bab9cc152000109cbb9
+outbound|Cleaning in Motion|cleaninginmotion.com|5f497444b41563000148d736
+outbound|Tribiz India|tribizindia.com|5eb44395d5849c011612a712
+outbound|Terra 1|seamless.ai|5d0a735d80f93ed3db00d4da
+outbound|Pixelo Digital|pixelodigital.com|5e57420637f7a60001f763a3
+outbound|Danish Lead Co.|danishleadco.io|64fe990d48aa14000196273e
+outbound|Zaphyre|zaphyrpro.com|5f049ad303c26301a09c06f1
+outbound|Pacto|pacto-prospection.fr|605f5e665a97e800e26aafdd
+outbound|Saleshandy|saleshandy.com|56d7431cf3e5bb0f53004252
+outbound|Spiralyze|spiralyze.com|54a11ebf69702d8cccb09201
+outbound|Grupo Noa International|gruponoainternational.com|618b1b148e9aed00deb7d54c
+outbound|SalesRoads|salesroads.com|5f441ba78815620001a5b37d
+outbound|Easy Outsource|easy-outsource.com|64977569d549cf00a3a92e84
+outbound|Whistle|whistle.ltd|5eab3abf97a59100c26f2548
+outbound|Mission Inbox|missioninbox.com|64f53e862688a00001d0af0a
+outbound|Lideres en Ventas|lideresenventas.com|61173e4f7b8801000154641f
+outbound|Vroom Media Group|vroommediagroup.com|60ef1c64ac56cd00f6eff20b
+outbound|Bastida&Farina|bastidafarina.com|5fc94e57521f5b0001ffe180
+outbound|WeLaunch|welaunch.ai|64a40e3515fa9b00a3c6ab22
+outbound|GROW|grow-ps.com|601c0c6d13601100e216c34e
+outbound|Assist World|assistworld.com|66bae789f9fe7902ba9303a3
+outbound|PromoGeneration|promogen.org|611743bde7f7ea0001bc7b75
+outbound|Brightvision|brightvision.com|5569618473696425a3251800
+outbound|Resolv Global|resolv.global|64c4dd770b2e26000198f327
+outbound|Jumpfactor Marketing|jumpfactor.net|54a1273369702dc128ec1400
+outbound|Meo Recrutamento|recrutamentocomercialmeo.pt|5e9daa7e847b55008c7f98ed
+outbound|RealAdvisor|realadvisor.com|559231b473696418bc60c100
+outbound|ZeroBounce|zerobounce.net|5b8697e0324d4443e589159b
+outbound|INBOX Agency|inboxagency.com|55f53dbef3e5bb6e64002376
+outbound|ABS INTERNATIONAL|absinternational.pk|5fc99d4bc2ce310001393716
+outbound|Zoca|zoca.com|68063acb97c931001904d13e
+outbound|Mediboost|mediboost.com.au|615fd8cc04d8f10001c24afa
+outbound|iSpeedToLead|ispeedtolead.com|612707b227440c0001063cc3
+outbound|CN Sales Recruitment|cnsalesrecruitment.com|54a25dbd74686930c215411d
+outbound|8 Views|8views.com|66e5351526c5f70001260486
+outbound|Five Thousand Miles|fivethousandmiles.com|56db7300f3e5bb704d00a181
+outbound|FLiiP|myfliip.com|5e56514d8284a80001e26095
+outbound|Wedded Wonderland|weddedwonderland.com|56d93e1af3e5bb2cc3000e6c
+outbound|Amplemarket|amplemarket.com|5a9e6ef1a6da98d977fafadf
+outbound|FDV Partner|fdvpartner.com|57c4daa4a6da986a4f4b3780
+outbound|Smart Apartment Data|smartapartmentdata.com|54a1222c69702d8cccaf0103
+outbound|Hire Overseas|hireoverseas.com|672c94dc9d3b5000012f242d
+outbound|Lex Visas|lexvisas.in|5b8601d0324d444eada9cae3
+outbound|Tasks Expert|tasksexpert.com|5ed49bf8123d6d00015385b6
+outbound|Rekruuto|rekruuto.net|60e6920cc810d1011267684c
+outbound|Epiv Solution|epivsolution.com|65b7775bcda63b000198d48b
+outbound|InsideOut|insideoutva.com|6415fa1d3ab3ae0001d61de3
+outbound|Airful|airful.io|5ddd865918284700998b94f4
+outbound|HeyDelegate|heydelegate.com|611119aa93400c00a41c65ff
+outbound|India Market Entry|indiamarketentry.com|637c7d86433dc000013da058
+outbound|Engrain|engrain.com|54a135b069702d38bb22de00
+outbound|Ventive|ventivegroup.com|5e56497cad3e79000118559d
+outbound|Consistent Performance|kilianmarkert.com|5ed937ad63077b000156d042
+outbound|NestorBird|nestorbird.com|5da4e1b6eaff2c0001f70980
+outbound|Aura Digital Agency|theaura.agency|66f9162d92532700013657ee
+outbound|Yateman International|yatemaninternational.com|5e575a04111d1400013497ff
+outbound|Akimbo|akimbo.eu|622767fccae62100dc7beb33
+outbound|Pubrio|pubrio.com|63030c4f8ed91c00a3864370
+outbound|fonio.ai|fonio.ai|66ec3ce192c5ec02d45ad0c2
+outbound|AJ Media|ajmedia.io|67d3d00eeea0b90015055b2d
+lead generation|Global Pacific Support|globalpacificsupport.com|663d80c5c6245d01c7bb06b0
+lead generation|Flows|flows.es|654b863123cd3a00ba4330d7
+lead generation|Zaphyre|zaphyrpro.com|5f049ad303c26301a09c06f1
+lead generation|Hunter.io|hunter.io|66fbbdfe6c00fb0001da5b83
+lead generation|webdew|webdew.com|5c25de00a3ae61746d37e56a
+lead generation|Caprae Capital Partners|capraecapital.com|60486ee97bc44d0001f02a6d
+lead generation|Borks|borks.io|65d771b1b784c901c68cc834
+lead generation|TG Sales Agency|tgsalesagency.com|5da4b0ce231bff000138588d
+lead generation|Easy Outsource|easy-outsource.com|64977569d549cf00a3a92e84
+lead generation|AdvertMarketers|advertmarketers.com|5c1e0b5080f93e5cd7780cd2
+lead generation|SCPartners|scpartner.co.uk|646c6d80ca9bd300a351fe59
+lead generation|8 Views|8views.com|66e5351526c5f70001260486
+lead generation|AGS Leads|agsleads.com|61ec071bb55fc700013fccb2
+lead generation|Resolv Global|resolv.global|64c4dd770b2e26000198f327
+lead generation|Chesamel Group|chesamel.com|54a11ea769702d918c046c01
+lead generation|CreaThink Solutions|creathink-solutions.com|5f46990e6e8c8e0001d2ae85
+lead generation|We Are Pipol|pipolhub.com|5e5627431dcc380001cd24a3
+lead generation|StoryBrand|storybrand.com|5a9e9e66a6da98d97016dfcd
+lead generation|STAN AI|stan.ai|5bedb1fe558847ce123a22b0
+lead generation|TradeTracker.com|tradetracker.com|5c263a8580f93e4832566596
+lead generation|Varun Digital Media|varundigitalmedia.com|64f89154dcc81100a3074d73
+lead generation|India Market Entry|indiamarketentry.com|637c7d86433dc000013da058
+lead generation|VA Masters|vamasters.com|677d1bf9a4652203eccf356c
+lead generation|Publicis Groupe UK|publicisgroupeuk.com|605caa2a57932201364869fb
+lead generation|Limelight|limelighthq.com|64f72f429e9a3100a3a98f63
+lead generation|ADScholars|adscholars.com|5a9da190a6da98d935668195
+lead generation|LOBA|loba.com|556d17d873696412716e8300
+lead generation|InsideOut|insideoutva.com|6415fa1d3ab3ae0001d61de3
+lead generation|iSearch Solution|isearchsolution.com|54a134e969702d4b2e0b4500
+lead generation|GR0|gr0.com|5f6513ba1e886300d72648dd
+lead generation|MEDIA-START|media-start.fr|625338050af501008de9cfb8
+lead generation|Outsourcery|outsourcery.uk|5ed19e74c080ed0001e23e1f
+lead generation|Digifish3|digifish3.com|55f66226f3e5bb196100d0a0
+lead generation|Adcore|adcore.com|5569d9b87369642589f8a800
+lead generation|Outsource-X South Africa|outsource-x.com|65ca0aecbe47ff01c62e3fa3
+lead generation|TechoMatrix|techomatrix.com|5f4a311957ebe40001de3086
+lead generation|NS Ventures|nsventures.in|5c25c464a3ae6174a82a78eb
+lead generation|Tidewater Consulting|tidewaterconsultinginc.com|64032be3d4d985000138c0f6
+lead generation|Yokly|yokly.gives|5ffd5b4237c54500feac8157
+lead generation|Wise Pirates|wisepirates.com|5c22366480f93ed70a283eed
+lead generation|UTTR|uttr.com|6156036bff7100008c8df29c
+lead generation|Service Scalers|servicescalers.com|66671d56538fd006b07a9312
+lead generation|Expert Business Development|expertbizdev.com|54a23b9d74686930c2f82e18
+lead generation|MarketiXpert|marketixpert.com|6718b7d81bf8da000116d625
+lead generation|imisofts|imisofts.com|60fe7ed0f5086100da981dc3
+lead generation|Aarna Systems|aarnasystems.com|54a1356869702d46f0ee8f00
+lead generation|Searchperts Deutschland|searchperts.de|5edf26df06336400012452af
+lead generation|TriMkt|trimktnc.com|66f6b3f7b52bb001b2b3ca49
+lead generation|SalesMind AI|sales-mind.ai|642d46f644b2b900efaf3c64
+lead generation|webhosting.today|webhosting.today|65d866c04f34aa01c7b05b9c
+lead generation|epilot|epilot.cloud|5b849bdb324d444c27e2c900
+lead generation|Prime One Global|primeone.lk|54a1214d69702d84c57da502
+lead generation|OTO Agency|oto.agency|5ed49b8592061800011596b3
+lead generation|Glassroom|glassroom.ca|5da54efafdc9ae000123e708
+lead generation|eHealthcare Solutions|ehealthcaresolutions.com|5a9d8595a6da98d9466dcc8b
+lead generation|Smith Brothers Media|smithbrothersmedia.com.au|56d9be15f3e5bb35020055d0
+lead generation|Touchstone Infotech|touchstoneinfotech.com|556d39f673696411b605bb00
+lead generation|Giles Cain Media|gilescain.com.au|604879a09b764e00015d2337
+lead generation|DigiGrove Digital|digigrove.com|66321ad202005001c7f3a370
