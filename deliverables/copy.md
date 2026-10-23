@@ -26,11 +26,11 @@ Every message below is shown exactly as Mustafa would receive it. The workflow w
 
 > Hi Mustafa,
 >
-> I ran a quick check on scalemill.com and the main domain has no SPF record, easy to miss while you are hiring an SDR.
+> I ran a quick check on scalemill.com and the main domain has no SPF record, easy to miss while you are hiring an SDR. If the main domain has a gap, the sending domains behind your client campaigns are worth a look too.
 >
-> That is usually the point where agency sending starts to creak: every new client needs its own domains, mailboxes and warmup, and one bad domain can drag a client's results down.
+> Every new client needs its own domains, mailboxes and warmup, and one bad domain can drag a client's results down. InboxKit takes that whole layer off your team, from DNS and warmup to blacklist monitoring.
 >
-> InboxKit takes that whole layer off your team, from DNS and warmup to blacklist monitoring. Worth a free 30-minute audit of Scalemill's setup?
+> Worth a free 30-minute audit of Scalemill's setup?
 >
 > Best,<br>
 > Prashant<br>
@@ -44,7 +44,7 @@ Every message below is shown exactly as Mustafa would receive it. The workflow w
 
 > Hi Mustafa,
 >
-> I ran a quick check on scalemill.com and the main domain has no SPF record, easy to miss while you are hiring an SDR.
+> I ran a quick check on scalemill.com and the main domain has no SPF record, easy to miss while you are hiring an SDR. If the main domain has a gap, the sending domains behind your client campaigns are worth a look too.
 >
 > Worth knowing: Cymate, an outbound agency, ran their old mailboxes against InboxKit on about 10,000 sends each, and positive replies went from 10 to 26.
 >
@@ -62,7 +62,7 @@ Every message below is shown exactly as Mustafa would receive it. The workflow w
 
 > Hi Mustafa,
 >
-> Following up on the missing SPF record on scalemill.com. As an agency grows, client setup is where ops time quietly disappears. Anevo Marketing went from one to two weeks per new client to one to two hours after moving to InboxKit.
+> Following up on my note about the missing SPF record on scalemill.com. As an agency grows, client setup is where ops time quietly disappears. Anevo Marketing went from one to two weeks per new client to one to two hours after moving to InboxKit.
 >
 > Should I send over a couple of times for the audit?
 >
@@ -78,7 +78,7 @@ Every message below is shown exactly as Mustafa would receive it. The workflow w
 
 > Hi Mustafa,
 >
-> The thing agency founders tell us hurts most is one burnt domain taking a client's campaign down with it. On InboxKit every domain gets its own admin panel, so the damage stays isolated, and InfraGuard rechecks blacklists, DNS and bounces every six hours.
+> One burnt domain can take a client's whole campaign down with it. On InboxKit every domain gets its own admin panel, so the damage stays isolated, and InfraGuard rechecks blacklists, DNS and bounces every six hours.
 >
 > Want me to hold an audit slot for Scalemill?
 >
@@ -108,7 +108,7 @@ Every message below is shown exactly as Mustafa would receive it. The workflow w
 
 ### LinkedIn follow-up 1 (day 3, after connecting)
 
-> Thanks for connecting, Mustafa. I noticed the missing SPF record on scalemill.com while looking at Scalemill, a quick fix but easy to miss. We run a free 30-minute infrastructure audit for agencies, happy to set one up if it helps.
+> Thanks for connecting, Mustafa. I noticed the missing SPF record on scalemill.com, a quick fix but easy to miss. We run a free 30-minute infrastructure audit for agencies, happy to set one up if it helps.
 
 <sub>_Sources (not sent): the audit offer, demo page._</sub>
 
@@ -127,9 +127,14 @@ The sequencer template uses merge fields; the workflow fills them per lead in `s
 | Mustafa | `{{first_name}}` | Apollo |
 | Scalemill | `{{company_name}}` | Apollo |
 | "I ran a quick check on scalemill.com and the main domain has no SPF record, easy to miss while you are hiring an SDR." | `{{first_line}}` | Written by Claude from checked facts (`skills/first-line.md`) |
+| "If the main domain has a gap, the sending domains behind your client campaigns are worth a look too." | `{{signal_bridge}}` | Chosen by signal type (`scripts/personalise.py`) |
 | "the missing SPF record on scalemill.com" | `{{signal_short}}` | Built from the same facts (`scripts/personalise.py`) |
 
-Another lead gets their own signal, for example "Saw Startupr is hiring an appointment setter..." and "the appointment setter hire". Ten more first lines with the facts behind them are in `first_lines_10.md`.
+A lead with only a hiring signal gets wording that fits it. For SalesSourcers (hiring an SDR, no domain gap):
+
+- Email 1 opens: "Saw SalesSourcers is hiring an SDR, which usually means more client campaigns and more mailboxes to stand up and keep warm. That is usually the stage where one burnt domain starts costing a client real replies."
+- Email 2 opens: "Following up on my note about the SDR roles you are hiring for."
+- LinkedIn steps are skipped (LinkedIn goes only to leads with a clear domain gap). Ten more first lines with the facts behind them are in `first_lines_10.md`.
 
 ## Claim sources
 

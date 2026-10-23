@@ -17,8 +17,8 @@ from pathlib import Path
 from lib import log, read_csv, write_csv
 
 SHEET = ["name", "title", "company", "domain", "linkedin_url", "email", "verification_status", "qualifying_signal",
-         "source", "first_line", "signal_short", "signal_tier", "linkedin", "action", "verification_detail", "angle", "first_line_engine"]
-IMPORT = ["email", "first_name", "last_name", "company_name", "website", "linkedin_url", "title", "first_line", "signal_short", "signal"]
+         "source", "first_line", "signal_bridge", "signal_short", "signal_tier", "linkedin", "action", "verification_detail", "angle", "first_line_engine"]
+IMPORT = ["email", "first_name", "last_name", "company_name", "website", "linkedin_url", "title", "first_line", "signal_bridge", "signal_short", "signal"]
 
 
 def redact(r):
@@ -50,7 +50,7 @@ def main():
     write_csv(out / "sequencer_import.csv", [{
         "email": r["email"], "first_name": r["first_name"], "last_name": r["last_name"], "company_name": r["company"],
         "website": r["domain"], "linkedin_url": r.get("linkedin_url", ""), "title": r["title"],
-        "first_line": r["first_line"], "signal_short": r.get("signal_short", ""), "signal": r["qualifying_signal"]} for r in send], IMPORT)
+        "first_line": r["first_line"], "signal_bridge": r.get("signal_bridge", ""), "signal_short": r.get("signal_short", ""), "signal": r["qualifying_signal"]} for r in send], IMPORT)
     write_csv(out / "linkedin_list.csv", [r for r in rows if r["linkedin"] == "yes"],
               ["name", "title", "company", "linkedin_url", "qualifying_signal", "first_line"])
     # Shareable copy with contact details masked, for public repos and screenshots

@@ -73,13 +73,21 @@ ROLE_SHORT = {"sdr": "SDR", "sales development representative": "SDR", "bdr": "B
 
 
 def signal_short(item):
-    """A noun phrase follow-ups can reuse: 'the missing DMARC record on acme.io', 'the SDR hire'."""
+    """A noun phrase follow-ups can reuse after 'my note about': 'the missing DMARC record on acme.io',
+    'the SDR roles you are hiring for'."""
     if item.get("angle") == "domain_gap" and item.get("gap") in GAP_SHORT:
         return f"{GAP_SHORT[item['gap']]} on {item['domain']}"
     if item.get("angle") == "dmarc_none":
         return f"the p=none DMARC policy on {item['domain']}"
     role = (item.get("hiring_for") or "").split(";")[0].strip().lower()
-    return f"the {ROLE_SHORT.get(role, role or 'outbound')} hire"
+    return f"the {ROLE_SHORT.get(role, role or 'outbound')} roles you are hiring for"
+
+
+def signal_bridge(item):
+    """The sentence after the first line in email 1: why the signal matters for their client sending."""
+    if item.get("angle") in ("domain_gap", "dmarc_none"):
+        return "If the main domain has a gap, the sending domains behind your client campaigns are worth a look too."
+    return "That is usually the stage where one burnt domain starts costing a client real replies."
 
 
 def template_line(item):
@@ -134,6 +142,7 @@ def main():
             r["qualifying_signal"] = it.get("signal", "")
             r["angle"] = it.get("angle", "")
             r["signal_short"] = signal_short(it) if it else ""
+            r["signal_bridge"] = signal_bridge(it) if it else ""
             r["first_line"] = fl.get("first_line", "")
             r["first_line_engine"] = fl.get("engine", "claude" if fl else "")
         write_csv(wd / "people_final.csv", rows)
