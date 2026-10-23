@@ -25,7 +25,7 @@ Prashant Pandey · GTM Engineer assignment · 23 October 2026
 ## 2. Offer and single CTA
 
 - **A free 30-minute infrastructure audit:** live SPF, DKIM and DMARC check, a warmup plan and a same-day fix list ([offer](https://www.inboxkit.com/pricing), booked via [/demo](https://www.inboxkit.com/demo)).
-- **One ask in every message.**
+- **One ask in every message.** Plain-text emails with no links: every claim comes from inboxkit.com and its source page is listed in the copy file, not in the email.
 - It is already InboxKit's offer and the first item on the JD's offer list, so replies route to an existing playbook.
 
 ## 3. Three weeks, interleaved

@@ -1,12 +1,21 @@
 # Copy: growing outbound agencies
 
-Sender: Prashant, InboxKit. Offer: free 30-minute infrastructure audit. One ask per message. Merge tags are Smartlead style (`{{first_name}}`, `{{company_name}}`, `{{first_line}}`); in Instantly use `{{firstName}}`, `{{companyName}}` and the custom variable `{{first_line}}`. `first_line` comes from the workflow (see `output/leads.csv`).
+**Sender:** Prashant, InboxKit. **Offer:** free 30-minute infrastructure audit. **One ask per message.**
 
-Lines starting with `>` are notes for the reviewer, not part of the message. Every product claim links the inboxkit.com page it came from. `python scripts/lint_copy.py deliverables/copy.md` checks the rules.
+**Personalisation (from the workflow, per lead):**
+- `{{first_line}}`: the opener, written from checked facts (their domain gap or open role). See `deliverables/first_lines_10.md`.
+- `{{signal_short}}`: the same signal as a short phrase for follow-ups, e.g. "the missing DMARC record on acme.io" or "the SDR hire".
+- Tags are Smartlead style; in Instantly use `{{firstName}}`, `{{companyName}}` and the custom variables `{{first_line}}`, `{{signal_short}}`.
+
+**Plain text, no links.** Links in cold email hurt placement and pull clicks away from the reply. Every product claim comes from inboxkit.com; the source page for each is listed under "Claim sources" at the bottom, for reviewers only.
+
+**Opt-out:** every email carries the sequencer's standard footer ("If it's not a priority, reply 'no' and I'll stop."), handled at the sending layer, so it is not repeated below.
+
+Lines starting with `>` are notes for the reviewer. `python scripts/lint_copy.py deliverables/copy.md` checks the rules.
 
 ## Schedule (3 weeks; LinkedIn only for leads with a clear domain gap)
 
-| Day | Email (all leads) | LinkedIn (leads with a clear domain gap and a LinkedIn profile) |
+| Day | Email (all leads) | LinkedIn (clear domain gap + profile) |
 |---|---|---|
 | 1 | Email 1 (A/B split) | View profile, send connection note |
 | 3 | | Follow-up 1, if connected |
@@ -14,28 +23,26 @@ Lines starting with `>` are notes for the reviewer, not part of the message. Eve
 | 8 | Email 3 | |
 | 10 | | Follow-up 2 |
 | 15 | Email 4 (close the loop) | |
-| 15 to 21 | Reply handling; stop all steps on any reply | |
+| 15 to 21 | Reply handling; any reply stops every step | |
 
-### Email 1A (signal + what we do)
+### Email 1A (signal, then what changes)
 
-Subject: {{company_name}} sending setup
+Subject: {{company_name}} sending
 
 Hi {{first_name}},
 
 {{first_line}}
 
-As an agency adds clients, the infrastructure work grows with it: new domains, mailboxes, DNS records and warmup for every account. InboxKit runs that layer: Google Workspace, Microsoft 365 and Azure mailboxes on your domains, authentication records published for you, warmup, and monitoring of blacklists, DNS and bounces (https://www.inboxkit.com/about).
+That is usually the point where agency sending starts to creak: every new client needs its own domains, mailboxes and warmup, and one bad domain can drag a client's results down.
 
-We offer a free 30-minute infrastructure audit: a live check of your SPF, DKIM and DMARC and a fix list you can act on the same day (https://www.inboxkit.com/demo). Worth a look for {{company_name}}?
+InboxKit takes that whole layer off your team, from DNS and warmup to blacklist monitoring. Worth a free 30-minute audit of {{company_name}}'s setup?
 
 Prashant
 InboxKit
 
-Reply "no" and I won't email again.
+> Sources: what InboxKit runs (about page); the audit offer (demo page).
 
-> Claims: about page (what InboxKit provisions and monitors); audit contents from the offer on every page, booked via /demo.
-
-### Email 1B (signal + proof)
+### Email 1B (signal, then proof)
 
 Subject: replies at {{company_name}}
 
@@ -43,32 +50,28 @@ Hi {{first_name}},
 
 {{first_line}}
 
-One outbound agency, Cymate, ran its old mailboxes and InboxKit side by side on about 10,000 sends each. Positive replies went from 10 to 26 (https://www.inboxkit.com/case-studies/cymate-recovered-client-pipeline-inboxkit).
+Worth knowing: Cymate, an outbound agency, ran their old mailboxes against InboxKit on about 10,000 sends each, and positive replies went from 10 to 26.
 
-A free 30-minute infrastructure audit is the quickest way to see where your own setup stands (https://www.inboxkit.com/demo). Open to one?
+Open to a free 30-minute audit to see where {{company_name}} stands?
 
 Prashant
 InboxKit
 
-Reply "no" and I won't email again.
+> Source: Cymate case study (9,965 sent and 10 positive on the previous vendor; 10,545 sent and 26 positive on InboxKit). The previous vendor is not named.
 
-> Cymate test on the case study page: 9,965 sent and 10 positive on the previous vendor, 10,545 sent and 26 positive on InboxKit. The previous vendor is not named.
+### Email 2 (day 4: setup time)
 
-### Email 2 (day 4: time cost of growth)
-
-Subject: re: {{company_name}} sending setup
+Subject: re: {{company_name}} sending
 
 Hi {{first_name}},
 
-When agencies grow, mailbox setup quietly eats the ops team. Anevo Marketing, a multi-client agency, went from one to two weeks to set up a new client to one to two hours, and now runs over 4,000 mailboxes this way (https://www.inboxkit.com/case-studies/anevo-marketing-scaled-infrastructure-inboxkit).
+Following up on {{signal_short}}. As an agency grows, client setup is where ops time quietly disappears. Anevo Marketing went from one to two weeks per new client to one to two hours after moving to InboxKit.
 
-Should I send a couple of times for the audit?
+Should I send over a couple of times for the audit?
 
 Prashant
 
-Reply "no" and I won't email again.
-
-> Anevo case study: client setup 1 to 2 hrs (was 1 to 2 weeks); 4.3K active mailboxes.
+> Source: Anevo case study (client setup 1 to 2 hrs, was 1 to 2 weeks).
 
 ### Email 3 (day 8: one bad domain)
 
@@ -76,15 +79,13 @@ Subject: one bad domain
 
 Hi {{first_name}},
 
-The failure agencies tell us about most is one domain getting burnt and pulling a client's campaign down with it. On InboxKit each domain gets its own admin panel, so a damaged domain stays isolated from the rest (https://www.inboxkit.com/), and InfraGuard rechecks blacklists, DNS and bounces every six hours (https://www.inboxkit.com/pricing).
+The thing agency founders tell us hurts most is one burnt domain taking a client's campaign down with it. On InboxKit every domain gets its own admin panel, so the damage stays isolated, and InfraGuard rechecks blacklists, DNS and bounces every six hours.
 
-If that is useful for {{company_name}}, the free audit covers it (https://www.inboxkit.com/demo). Want me to hold a slot?
+Want me to hold an audit slot for {{company_name}}?
 
 Prashant
 
-Reply "no" and I won't email again.
-
-> Homepage: "Dedicated Panel for Each Domain". Pricing page: InfraGuard "Blacklist, DNS and bounce monitoring every 6 hours".
+> Sources: homepage ("Dedicated Panel for Each Domain"); pricing page (InfraGuard every 6 hours).
 
 ### Email 4 (day 15: close the loop)
 
@@ -92,24 +93,36 @@ Subject: closing the loop
 
 Hi {{first_name}},
 
-I'll leave it here. If sending infrastructure moves up the list as {{company_name}} hires, the free 30-minute audit stands (https://www.inboxkit.com/demo).
+I'll leave it here. If sending infrastructure moves up the list at {{company_name}}, reply to this and I'll set up the free audit.
 
 Prashant
 
-Reply "no" and I won't email again.
-
 ### LinkedIn connection note
 
-Hi {{first_name}}, I work on email infrastructure at InboxKit and keep an eye on how outbound agencies scale. Saw {{company_name}} is hiring, so thought I'd connect.
+Hi {{first_name}}, I work on email infrastructure at InboxKit and spend most of my time with outbound agency founders, so {{company_name}} caught my eye. Would be good to connect.
 
-> No pitch and no link in the note. Under 300 characters.
+> No pitch. Under 300 characters.
 
 ### LinkedIn follow-up 1 (day 3, after connecting)
 
-Thanks for connecting, {{first_name}}. I also sent you a short email about {{company_name}}'s domain setup. The short version: we run a free 30-minute infrastructure audit for agencies, a live check of SPF, DKIM and DMARC plus a fix list (https://www.inboxkit.com/demo). Happy to set one up if it helps.
+Thanks for connecting, {{first_name}}. I noticed {{signal_short}} while looking at {{company_name}}, a quick fix but easy to miss. We run a free 30-minute infrastructure audit for agencies, happy to set one up if it helps.
+
+> Source: the audit offer (demo page).
 
 ### LinkedIn follow-up 2 (day 10)
 
-{{first_name}}, one more and then I'll stop. LeadHaste runs 100+ client campaigns on InboxKit and reports zero suspensions since moving (https://www.inboxkit.com/case-studies/leadhaste-millions-emails-automated-dns-inboxkit). If burnt domains ever come up as you grow, worth a 30-minute look?
+{{first_name}}, last note from me. LeadHaste runs 100+ client campaigns on InboxKit and has had zero suspensions since moving. If burnt domains ever come up as {{company_name}} grows, worth a 30-minute look?
 
-> LeadHaste case study: "Zero: suspensions on InboxKit", "100+: client campaigns".
+> Source: LeadHaste case study ("Zero: suspensions on InboxKit", "100+: client campaigns").
+
+## Claim sources
+
+| Claim in the copy | Page on inboxkit.com |
+|---|---|
+| Mailboxes, DNS and authentication, warmup, blacklist monitoring | https://www.inboxkit.com/about |
+| Free 30-minute infrastructure audit (SPF, DKIM, DMARC, fix list) | https://www.inboxkit.com/demo |
+| Cymate: positive replies 10 to 26 on about 10,000 sends each | https://www.inboxkit.com/case-studies/cymate-recovered-client-pipeline-inboxkit |
+| Anevo: client setup from 1 to 2 weeks to 1 to 2 hours | https://www.inboxkit.com/case-studies/anevo-marketing-scaled-infrastructure-inboxkit |
+| Dedicated admin panel per domain | https://www.inboxkit.com/ |
+| InfraGuard rechecks blacklists, DNS and bounces every 6 hours | https://www.inboxkit.com/pricing |
+| LeadHaste: 100+ client campaigns, zero suspensions | https://www.inboxkit.com/case-studies/leadhaste-millions-emails-automated-dns-inboxkit |

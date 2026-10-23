@@ -65,6 +65,23 @@ def signal_summary(company):
     return "; ".join(parts)
 
 
+GAP_SHORT = {"no_dmarc": "the missing DMARC record", "no_spf": "the missing SPF record",
+             "multiple_spf": "the duplicate SPF records", "spf_plus_all": "the +all SPF record"}
+ROLE_SHORT = {"sdr": "SDR", "sales development representative": "SDR", "bdr": "BDR", "appointment setter": "appointment setter",
+              "outbound": "outbound", "lead generation": "lead generation", "lead generation specialist": "lead generation",
+              "campaign manager": "campaign manager", "cold email": "cold email", "deliverability": "deliverability"}
+
+
+def signal_short(item):
+    """A noun phrase follow-ups can reuse: 'the missing DMARC record on acme.io', 'the SDR hire'."""
+    if item.get("angle") == "domain_gap" and item.get("gap") in GAP_SHORT:
+        return f"{GAP_SHORT[item['gap']]} on {item['domain']}"
+    if item.get("angle") == "dmarc_none":
+        return f"the p=none DMARC policy on {item['domain']}"
+    role = (item.get("hiring_for") or "").split(";")[0].strip().lower()
+    return f"the {ROLE_SHORT.get(role, role or 'outbound')} hire"
+
+
 def template_line(item):
     c, gap = item["company"], item.get("gap")
     if item["angle"] == "domain_gap" and gap:
@@ -116,6 +133,7 @@ def main():
             it, fl = items.get(r["person_id"], {}), lines.get(r["person_id"], {})
             r["qualifying_signal"] = it.get("signal", "")
             r["angle"] = it.get("angle", "")
+            r["signal_short"] = signal_short(it) if it else ""
             r["first_line"] = fl.get("first_line", "")
             r["first_line_engine"] = fl.get("engine", "claude" if fl else "")
         write_csv(wd / "people_final.csv", rows)

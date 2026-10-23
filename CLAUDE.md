@@ -33,7 +33,7 @@ No Apollo connector? Any CSV export (Apollo, Clay, Prospeo) with the same column
 - Never send, schedule or upload anything to a sequencer. The output is a CSV for a human to import.
 - Never spend more Apollo credits than `limits.max_enrich_credits` in `icp.md`.
 - First lines use only the facts in `to_personalise.jsonl`. No invented numbers, clients or tools.
-- Copy rules (enforced by `scripts/lint_copy.py`): no em or en dashes, one ask per message, an opt-out in every email, every product claim links a page on inboxkit.com, no attacks on named companies.
+- Copy rules (enforced by `scripts/lint_copy.py`): no em or en dashes, one ask per message, plain text with no links in messages, every message personalised from the lead's signal, every product claim sourced to an inboxkit.com page in the claim-sources table, the sequencer's opt-out footer on every email, no attacks on named companies.
 - Only `action=send` rows (valid email) go into `sequencer_import.csv`. `hold` rows wait for a second verifier.
 
 ## When something fails

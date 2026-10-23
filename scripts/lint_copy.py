@@ -1,9 +1,15 @@
 """Check copy against the brief's rules before anything is staged.
 
-Rules: no em or en dashes; one ask (at most one question mark) per message; every email has an
-opt-out; any message that makes a product claim links a page on inboxkit.com.
+Rules:
+- no em or en dashes; one ask (at most one question mark) per message
+- no links inside messages (plain text places better and keeps the ask on the reply)
+- every message is personalised: it uses {{first_line}}, {{signal_short}} or {{company_name}}
+- any message that makes a product claim carries a '> Source' note, and the file has a
+  '## Claim sources' table linking the inboxkit.com page for each claim
+- the opt-out footer the sequencer adds to every email is declared once in the file
 
-Copy file format: each message is a '### ' section. Sections whose title starts with 'Email' are emails.
+Copy file format: each message is a '### ' section (ending at the next '## ' heading).
+Sections whose title starts with 'Email' are emails.
 Usage:
   python scripts/lint_copy.py deliverables/copy.md
   python scripts/lint_copy.py --first-lines data/first_lines.jsonl
@@ -18,9 +24,14 @@ OPT_OUT = re.compile(r"reply ['\"]?(no|stop|unsubscribe)|unsubscribe|won't email
 CLAIM_WORDS = re.compile(r"\b(mailbox|mailboxes|warmup|InfraGuard|DNS|DMARC|SPF|DKIM|Azure|white.label|\$\d|per month)\b", re.I)
 
 
+LINK = re.compile(r"https?://|www\.", re.I)
+PERSONAL = re.compile(r"\{\{(first_line|signal_short|company_name)\}\}")
+
+
 def sections(text):
     parts = re.split(r"^### (.+)$", text, flags=re.M)
-    return [(parts[i].strip(), parts[i + 1]) for i in range(1, len(parts), 2)]
+    # a section ends at the next level-2 heading (e.g. '## Claim sources')
+    return [(parts[i].strip(), re.split(r"^## ", parts[i + 1], flags=re.M)[0]) for i in range(1, len(parts), 2)]
 
 
 def body_of(sec):
@@ -34,14 +45,21 @@ def lint_copy(path):
     for m in DASHES.finditer(text):
         line = text[: m.start()].count("\n") + 1
         errors.append(f"line {line}: em/en dash")
+    if not OPT_OUT.search(text):
+        errors.append("no opt-out footer declared for the emails")
+    sources = re.split(r"^## Claim sources", text, flags=re.M)
+    if len(sources) < 2 or "inboxkit.com" not in sources[1]:
+        errors.append("missing '## Claim sources' table with inboxkit.com links")
     for title, sec in sections(text):
         body = body_of(sec)
         if body.count("?") > 1:
             errors.append(f"{title}: {body.count('?')} question marks (one ask per message)")
-        if title.lower().startswith("email") and not OPT_OUT.search(body):
-            errors.append(f"{title}: no opt-out")
-        if CLAIM_WORDS.search(body) and "inboxkit.com" not in sec:
-            errors.append(f"{title}: product claim without an inboxkit.com link")
+        if LINK.search(body):
+            errors.append(f"{title}: link inside the message")
+        if not PERSONAL.search(body):
+            errors.append(f"{title}: not personalised (no first_line, signal_short or company_name)")
+        if CLAIM_WORDS.search(body) and not re.search(r"^> Sources?:", sec, re.M):
+            errors.append(f"{title}: product claim without a '> Source' note")
     return errors
 
 
