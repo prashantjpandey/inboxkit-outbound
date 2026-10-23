@@ -41,7 +41,8 @@ def main():
     for r in rows:
         r["name"] = f"{r['first_name']} {r['last_name']}".strip()
         # signal_tier: 1 = hiring outbound roles, 2 = domain gap only (set when the shortlist was built)
-        r["signal_tier"] = r.get("tier") or ""
+        sig = r.get("qualifying_signal", "")
+        r["signal_tier"] = r.get("tier") or ("1" if "Hiring" in sig else "2" if sig else "")
         # LinkedIn (HeyReach) steps only for the strongest signal with a named profile, as the JD reserves LinkedIn for top accounts
         r["linkedin"] = "yes" if r.get("angle") == "domain_gap" and r.get("linkedin_url") and r["action"] != "drop" else "no"
     write_csv(out / "leads.csv", rows, SHEET)
